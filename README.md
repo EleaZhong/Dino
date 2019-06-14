@@ -18,7 +18,11 @@ So uhhh I guess its not so much of a *well written* code but something one would
 
 I wrote this in about 3 hours, I know its a bit much for a game as simple as the Dinosaur game in Chrome, but in my defense I'm a bit of a starter and I just finished my finals
 
-I put in another 3 hours of playing and testing, so I guess you'll have some fun playing this somewhat absurd game.
+also, its only written using python tkinter canvas. I know its kind of dumb, but I didn't feel like learning anything new.
+
+So after writing the code I put in another 3 hours of playing and testing, and I feel like it is well polished, at least in the eye of me : a person that does not expert in game design.
+
+so I guess you'll have some fun playing this somewhat absurd game.
 
 why absurd you may ask?
 
@@ -51,6 +55,9 @@ Well great question chief let me explain.
 
     So **again** don't think of it as a *bug*, think of it as a ***feature***. 
 
+    I also have a little indicator for how high the dinosaur has gone out of screen for my pleasure
+    ![dino screen](images/toohigh.png)
+
 4. I made an `auto` mode for testing, and the secret key is `p`, the bot is stupid its just timed jumps, it was useful in early tests but not so much in this version.
 
     but have fun
@@ -60,6 +67,7 @@ Well great question chief let me explain.
     ahh now I'm depressed again
 
 5. I didn't want to make you install another package that installs fonts, so I guess if you're a man of culture theres a `.ttf` pack in the repo, the code works fine without it, it's just for visual pleasure.
+   
 6. aaaand folks thats it
 
 ## Installing and playing
@@ -78,7 +86,11 @@ nah just contact me and I'll try to make it work,
 
 Or you could do it yourself and tell me how, I'd be flattered
 
+## some extra pictures
 
+![screenshot 1](images/ss001.png)
+![screenshot 2](images/ss002.png)
+![screenshot 3](images/ss003.png)
 
 ## 前言
 
