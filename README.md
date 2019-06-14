@@ -104,7 +104,6 @@ Or you could do it yourself and tell me how, I'd be flattered
 
 大致是如此。
 
-There is an English version after the Chinese one. Or you could just Google Translate it, idk.
 
 素材都是直接从Chrome上截图的，估计也不算侵权哈
 
