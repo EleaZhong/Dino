@@ -12,7 +12,7 @@ So this is some code I wrote just after I finished my finals.
 
 For clarification this is my ripoff version of Chrome's easter egg Dinosaur game.
 
-I was trying to **have some fun** when i wwrote it
+I was trying to **have some fun** when i wrote it
 
 So uhhh I guess its not so much of a *well written* code but something one would *have fun* playing.
 
