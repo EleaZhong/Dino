@@ -31,6 +31,7 @@ Well great question chief let me explain.
 ## Special “Features”
 
 1. So I guess I was **extremely tired** when I wrote the code, and I wrote some code so that after a cactus has spawned there would be one tenth or one eighth chance that there would be a slightly paler colored cactus that spawns right after it.
+   
    ![freak cactus](images/freakcactus.png)
 
     kinda just like this, but the kind of cacti varies. I guess I tried to make the game harder? truly idk 
@@ -42,7 +43,9 @@ Well great question chief let me explain.
 2. Also I used a random function for catus spawn, but I got kinda extreme and the map could generate viciously hard patterns, but I was just too tired to care, but don't think of it as a *bug*, think of it as a ***feature***. 
 
     So here you go
+    
     ![super difficult part](images/difficult.png)
+    
     see if you can jump over ***this***
 
 3. yeah so five minutes after I found out that it was generating damned maps I got fustrated and started mashing my keyboard, like all gamers would.
@@ -56,6 +59,7 @@ Well great question chief let me explain.
     So **again** don't think of it as a *bug*, think of it as a ***feature***. 
 
     I also have a little indicator for how high the dinosaur has gone out of screen for my pleasure
+
     ![dino screen](images/toohigh.png)
 
 4. I made an `auto` mode for testing, and the secret key is `p`, the bot is stupid its just timed jumps, it was useful in early tests but not so much in this version.
@@ -72,7 +76,7 @@ Well great question chief let me explain.
 
 ## Installing and playing
 
-    mkdir /path/to/the/code/
+    cd /path/to/the/code/
 
     pip install requirements.txt
 
@@ -89,7 +93,9 @@ Or you could do it yourself and tell me how, I'd be flattered
 ## some extra pictures
 
 ![screenshot 1](images/ss001.png)
+
 ![screenshot 2](images/ss002.png)
+
 ![screenshot 3](images/ss003.png)
 
 ## 前言
@@ -110,6 +116,7 @@ Or you could do it yourself and tell me how, I'd be flattered
 ## 说一下大概比较有特点的地方
 
 1. 仙人掌会连着，大概就是体婴儿仙人掌
+   
    ![freak cactus](images/freakcactus.png)
 
    后面那个颜色是浅一点的，我也不知道为啥这么设计
@@ -117,6 +124,7 @@ Or you could do it yourself and tell me how, I'd be flattered
 2. 会有诡异复杂的地形，虽然是微调难度没有调好的结果。。。
 
    我们姑且称之为特性。。。
+   
    ![super difficult part](images/difficult.png)
 
 3. 我亲切地设置了Auto模式，按`p`可以自动跳。虽然难的地方跳不过，毕竟只是为了方便测试。
@@ -125,7 +133,7 @@ Or you could do it yourself and tell me how, I'd be flattered
 
 ## 安装
 
-    mkdir /path/to/the/code/
+    cd /path/to/the/code/
 
     pip install requirements.txt
 

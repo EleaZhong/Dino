@@ -351,7 +351,7 @@ def init_floor():
     for t in range(int(width/20)+2):
         t = t*20
         h = random.randint(0,10)
-        f2 = w.create_line(t+random.randint(0,1),height-17+h,t+random.randint(1,4),height-17+h,width =1)
+        f2 = w.create_line(t+random.randint(0,1),height-17+h,t+random.randint(1,4),height-17+h,width =1,fill = '#535353')
         floor.append(f2)
 
 
@@ -360,7 +360,7 @@ def init_floor():
 def make_floor():
     global floor,s_mp
 
-    f = w.create_line(width,height-20,width+(6+s_mp)*10,height-20)
+    f = w.create_line(width,height-20,width+(6+s_mp)*10,height-20,fill = '#535353')
     
     floor.append(f)
     
@@ -368,12 +368,13 @@ def make_floor():
 def make_mud():
     global floor
     h = random.randint(0,10)
-    f2 = w.create_line(width+random.randint(0,1),height-17+h,width+random.randint(1,4),height-17+h,width =1)
+    f2 = w.create_line(width+random.randint(0,1),height-17+h,width+random.randint(1,4),height-17+h,width =1,fill = '#535353')
     floor.append(f2)
 
 
 def restart(e):
     global stare,if_dead,dino,floor,obstacles,text,timer,score,score_text,hiscore_text,hiscore,auto_text,old_state
+
     if if_dead:
         w.delete('all')
         floor = []
@@ -397,10 +398,7 @@ def restart(e):
         score_text = w.create_text(width-50,20,text = str(score).zfill(5), font = 'Minecraftia 20',fill = '#535353')
         loop()
 
-def stare():
-    
-    
-    return 0
+
 
 def toggle_auto(e):
     global auto
@@ -411,7 +409,6 @@ ct2 = 0
 old_state = False
 def loop():
     global w,text,counter,if_dead,stare,s_mp,score_text,score,ct2,hiscore_text,cacti_gen_rate,old_state
-    loop_time = time.time()
     if if_dead: 
         #w.delete('all')
 
@@ -424,7 +421,7 @@ def loop():
                 f.write(str(score))
 
         stare = w.create_image(width/2,height/2,image = w.gameover)
-        w.after(10,stare)
+
         return 0
     counter+=1
     ct2 +=1
@@ -470,7 +467,6 @@ def loop():
     move()
         
     detect_collision()
-    print(time.time()-loop_time)
     w.after(10,loop)
     
 
